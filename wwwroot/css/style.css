@@ -1,12 +1,11 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 .navbar{width:50px; float:right; transition:all 0.5s; margin-top:15px;}
-.navbar img{width: 100%;margin-bottom: 30px;}
 .navbar-toggler{height:50px;text-align: center;width: 50px;position: relative; z-index:3; cursor: pointer;}
 
-.navbar ul{width:100%; overflow:auto; text-align:center; padding-bottom:40px; background:rgba(0,0,0,0.8); position:fixed; top:80px; left: 0px;bottom:0px; display: none; z-index:2;}
-.navbar ul li a{width:100%; display:block; color:#fff; line-height: 30px; font-size:14px; padding:10px 0; border-bottom:1px rgba(255,255,255,0.15) solid; transition: all 0.5s;}
-.navbar ul li a:hover{background:#f7f7f7;}
+.navbar>ul{width:100%; overflow:auto; text-align:center; padding-bottom:40px; background:rgba(0,0,0,0.8); position:fixed; top:80px; left: 0px;bottom:0px; display: none; z-index:2;}
+.navbar>ul>li a{width:100%; display:block; color:#fff; line-height: 30px; font-size:14px; padding:10px 0; border-bottom:1px rgba(255,255,255,0.15) solid; transition: all 0.5s;}
+.navbar>ul>li a:hover{background:#f7f7f7;}
 
 .navbar-toggler span{width:25px;height:2px; background:#fff; position:absolute; left:calc((100% - 25px) / 2); top: calc((100% - 1px) / 2);}
 .navbar-toggler span:nth-child(1){transform: translateY(4px) rotate(0deg);}
